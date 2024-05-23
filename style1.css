@@ -1,0 +1,182 @@
+/* renitialisation*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Titillium web" , sans-serif ; 
+    list-style: none;
+    text-decoration: none;
+}
+body
+{
+  background-color: rgb(0, 128, 36);
+}
+img{
+  border-radius: 250%;
+  width:15% ;
+  height: 25%;
+  position: absolute;
+  top: 25%;
+  right: 65%;
+}
+
+
+.cont-paragraph {
+  position: absolute;
+  width: 50%;
+  right: 10%;
+  top: 25%;
+}
+
+h1 a
+{
+  padding-left: 60px;
+  color: white;
+  
+  
+}
+
+/* header et cont-nav*/
+.cont-nav
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    padding-top: 25px;   
+}
+
+ul li a
+{
+  padding:10px ;
+  display: flex;
+  font-size: 20px;
+  color: white; 
+}
+ul{
+  width: 55%;
+  display: flex;  
+}
+
+  .nav-1 p{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 80px;
+  }
+  
+  .nav-1{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+  .yelow {
+    background-color: rgb(255, 106, 0);
+  }
+  .rouge{
+    background-color: rgba(255, 0, 0, 0.963);
+  }
+  .blue{
+    background-color: rgb(0, 76, 255);
+  }
+  a:hover{
+    background-color: rgba(255, 235, 205, 0.511);
+  }
+  
+
+
+
+
+
+/* parti footer */
+
+footer {
+    display: flex; /* Utilise Flexbox pour aligner les éléments en parallèle */
+    justify-content: space-between; /* Pour répartir l'espace entre les éléments */
+    align-items: center; /* Pour aligner verticalement les éléments au centre */
+    padding: 20px; /* Ajoute un peu d'espace intérieur pour que le contenu ne soit pas collé aux bords */
+    margin-left: 7%;
+    margin-right: 7%;
+    border-top: 1px solid #ccc; /* Ajoute une bordure supérieure au footer */
+    padding-top: 20px; /* Ajoute un peu d'espace entre la bordure et le contenu du footer */
+    color: white;
+  }
+  
+  footer section {
+    flex: 1; /* Pour que chaque section occupe une part égale de l'espace disponible */
+  }
+  
+  footer h3 p {
+    margin-bottom: 10px; /* Ajoute un peu d'espace en bas des titres */
+    
+  }
+  
+  footer p a {
+    margin: 0; /* Supprime les marges par défaut des paragraphes */
+    color: white;
+  }
+
+  /* Ajoute des styles spécifiques pour les écrans de taille moyenne et plus grands */
+
+@media only screen and (min-width: 768px) {
+  .cnt-main {
+    flex-direction: row; /* Disposition en ligne pour les sections */
+  }
+  .cnt-main > div {
+    flex: 1; /* Pour que chaque section occupe une part égale de l'espace disponible */
+    margin-right: 20px; /* Ajouter un peu d'espace entre les sections */
+  }
+}
+
+/* Ajoute des styles spécifiques pour les écrans plus petits */
+
+@media only screen and (max-width: 767px) {
+  .cnt-main {
+    flex-direction: column; /* Disposition en colonne pour les sections */
+  }
+  .cnt-main > div {
+    margin-right: 0; /* Supprimer la marge à droite pour empêcher les sections de se déborder */
+    margin-bottom: 20px; /* Ajouter un peu d'espace entre les sections */
+  }
+}
+
+/* Ajoute des styles spécifiques pour les champs de formulaire */
+
+.cnt-main input[type="text"],
+.cnt-main input[type="email"],
+.cnt-main textarea {
+  width: 100%; /* Utiliser toute la largeur disponible */
+}
+
+/* Ajoute des styles spécifiques pour le bouton d'envoi */
+
+.cnt-main input[type="submit"] {
+  width: auto; /* Rétablir la largeur automatique par défaut */
+}
+
+/* Style spécifique pour le bouton d'envoi */
+
+.cnt-main input[type="submit"] {
+  background-color: #4CAF50; /* Couleur de fond */
+  color: white; /* Couleur du texte */
+  border: none; /* Supprimer la bordure */
+  padding: 10px 20px; /* Ajouter un peu de rembourrage */
+  border-radius: 5px; /* Ajouter des coins arrondis */
+  cursor: pointer; /* Définir le curseur sur pointer pour indiquer que c'est interactif */
+  transition: background-color 0.3s; /* Ajouter une transition fluide pour le changement de couleur de fond */
+}
+
+/* Style spécifique au survol du bouton d'envoi */
+.cnt-main input[type="submit"]:hover {
+  background-color: #45a049; /* Changement de couleur de fond au survol */
+}
+footer {
+  position: absolute;
+  bottom: 5%;
+  justify-content: space-between;
+  width: 90%;
+}
+
+
+  
+

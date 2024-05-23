@@ -1,0 +1,55 @@
+
+a {
+    
+    text-decoration: none;
+}
+*{
+    color: black;
+    list-style: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+ul li a
+{
+  padding:5% ;
+  display: flex;
+  font-size: 1em; 
+  justify-content: space-between;
+  
+}
+body{
+  background-color: rgb(255, 136, 0);
+}
+ul{
+  width: 55%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  }
+.cont-1{position: absolute;
+  right: 60%;
+}
+.cont-2{
+  position: absolute;
+  right: 20%;
+}
+
+
+footer{
+  position: absolute;
+  width: 90%;
+  bottom: 1%;
+  display: flex; /* Utilise Flexbox pour aligner les éléments en parallèle */
+    justify-content: space-between; /* Pour répartir l'espace entre les éléments */
+    align-items: center; /* Pour aligner verticalement les éléments au centre */
+    padding: 1%; /* Ajoute un peu d'espace intérieur pour que le contenu ne soit pas collé aux bords */
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top: 1px solid #ccc; /* Ajoute une bordure supérieure au footer */
+    
+}
